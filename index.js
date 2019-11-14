@@ -1,4 +1,4 @@
-const express = require('express');//install this with npm install express in the terminal
+const express = require('express');//install this with npm install express in the terminal, also instal ejs
 var app = express();
 var gameEngine = require('./gameEngine.js');
 
