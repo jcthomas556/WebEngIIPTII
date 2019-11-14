@@ -2,7 +2,7 @@ const express = require('express');//install this with npm install express in th
 var app = express();
 var gameEngine = require('./gameEngine.js');
 
-app.set('port', 5000)
+app.set('port', process.env.PORT || 5000)
     .use(express.static(__dirname + '/public'))//this lets me put files in the public folder that are acceable globally
     .set('views', __dirname + '/views')
     .set('view engine', 'ejs')
