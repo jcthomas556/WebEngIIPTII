@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Postal Rate Calculator</title>
 </head>
 <body>
     <form action="/game" method="get">
-        Enter your name: <input type = "text" name = "username"> <br>
+        Enter item weight in whole numbers rounded up, measured in ounces: <input type = "text" name = "username"> <br>
         <select name="player_choice">
-            <option value = "rock">Rock</option>
-            <option value = "paper">Paper</option>
-            <option value = "sissors">Sissors</option>
+            <option value = "stampedLetter">Stampted letter</option>
+            <option value = "meteredLetter">Metered Letter</option>
+            <option value = "flatEnvelope">Flat Envelope</option>
+            <option value = "package">Package</option>
         </select>
         <br>
-        <input type = "submit" value = "Play">
+        <input type = "submit" value = "Calculate">
     </form>
 </body>
 </html>
