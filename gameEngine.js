@@ -16,8 +16,6 @@ function playGame(req, res){
 
 
 function calculateCost(object, weight){
-    console.log(object);
-    console.log(weight);
     if (weight < 0 || weight > 13) weight = 0
     if (weight == 0) return 0
     if (object == "stampedLetter") { // Stamped
